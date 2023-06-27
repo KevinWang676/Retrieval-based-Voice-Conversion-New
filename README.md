@@ -1,12 +1,12 @@
 # RVC Training with v2 48k
 
-(1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006`
+(1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006` in AutoDL
 
 (2) Select `48k` and `v2`
 
 (3) Fill in `pretrained_v2/f0G48k.pth` and `pretrained_v2/f0D48k.pth`
 
-(4) Train the model.
+(4) Train the model
 
 # Original README.md
 
