@@ -8,6 +8,16 @@
 
 (4) Train the model
 
+## 第二代RVC模型48k采样率 训练指南
+
+(1) 在AutoDL终端界面运行 `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006`
+
+(2) 进入自定义服务界面后选择 `48k` 和 `v2`
+
+(3) 在`加载预训练底模G路径`处填写 `pretrained_v2/f0G48k.pth`，在`加载预训练底模D路径`处填写 `pretrained_v2/f0D48k.pth`
+
+(4) 一键训练
+
 # Original README.md
 
 <div align="center">
