@@ -14,7 +14,7 @@
 
 (2) 进入自定义服务界面后选择 `48k` 和 `v2`
 
-(3) 在`加载预训练底模G路径`处填写 `pretrained_v2/f0G48k.pth`，在`加载预训练底模D路径`处填写 `pretrained_v2/f0D48k.pth`
+(3) 在`加载预训练底模G路径`处填写 `pretrained_v2/f0G48k.pth`；在`加载预训练底模D路径`处填写 `pretrained_v2/f0D48k.pth`
 
 (4) 一键训练
 
