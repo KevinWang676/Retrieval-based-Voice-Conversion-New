@@ -1,6 +1,6 @@
 # RVC Training with v2 and 48k
 
-(1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006` in [AutoDL](https://www.codewithgpu.com/i/KevinWang676/Retrieval-based-Voice-Conversion-New/RVC-48k-v2-Training). I've already set up the environment you need.
+(1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006` in [AutoDL](https://www.codewithgpu.com/i/KevinWang676/Retrieval-based-Voice-Conversion-New/RVC-v2-48k-Training). I've already set up the environment you need.
 
 (2) Select `48k` and `v2`
 
@@ -10,7 +10,7 @@
 
 ## 第二代RVC模型48k采样率 在线训练指南
 
-(1) 点击[RVC-48k-v2](https://www.codewithgpu.com/i/KevinWang676/Retrieval-based-Voice-Conversion-New/RVC-48k-v2-Training)即可创建训练实例，环境已配置好，开箱即用！
+(1) 点击[RVC-48k-v2](https://www.codewithgpu.com/i/KevinWang676/Retrieval-based-Voice-Conversion-New/RVC-v2-48k-Training)即可创建训练实例，环境已配置好，开箱即用！
 
 (2) 在AutoDL终端界面运行 `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006`
 
