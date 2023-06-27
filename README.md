@@ -18,6 +18,8 @@
 
 (4) 一键训练
 
+(5) 结束训练后，推理需要的两个文件可在 `Retrieval-based-Voice-Conversion-New`文件夹下找到并下载（`.pth` 和 `.index`文件分别在子文件夹 `weights` 和 `logs`中）
+
 # Original README.md
 
 <div align="center">
