@@ -1,6 +1,6 @@
 # RVC Training with v2 and 48k
 
-(1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006` in AutoDL
+(1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006` in [AutoDL](https://www.codewithgpu.com/i/KevinWang676/Retrieval-based-Voice-Conversion-New/RVC-48k-v2-Training). I've already set up the environment you need.
 
 (2) Select `48k` and `v2`
 
@@ -10,7 +10,7 @@
 
 ## 第二代RVC模型48k采样率 在线训练指南
 
-(1) 在AutoDL终端界面运行 `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006`
+(1) 在AutoDL终端界面运行 `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006`；点击[RVC-48k-v2](https://www.codewithgpu.com/i/KevinWang676/Retrieval-based-Voice-Conversion-New/RVC-48k-v2-Training)即可创建训练实例，环境已配置好，开箱即用！
 
 (2) 进入自定义服务界面后选择 `48k` 和 `v2`
 
@@ -18,7 +18,7 @@
 
 (4) 一键训练
 
-(5) 结束训练后，推理需要的两个文件可在 `Retrieval-based-Voice-Conversion-New`文件夹下找到并下载（`.pth` 和 `.index`文件分别在子文件夹 `weights` 和 `logs`中）
+(5) 结束训练后，推理过程需要的两个文件可在 `Retrieval-based-Voice-Conversion-New`文件夹下找到并下载（`.pth` 和 `.index`文件分别在子文件夹 `weights` 和 `logs`中）
 
 # Original README.md
 
