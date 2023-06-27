@@ -1,3 +1,15 @@
+# RVC Training with v2 48k
+
+(1) Run
+```
+echo {} > /root/Retrieval-based-Voice-Conversion-WebUI/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-WebUI && python infer-web.py --port 6006
+```
+(2) Upload 
+
+
+
+# Original README.md
+
 <div align="center">
 
 <h1>Retrieval-based-Voice-Conversion-WebUI</h1>
