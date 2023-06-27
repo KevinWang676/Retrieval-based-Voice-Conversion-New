@@ -1,4 +1,4 @@
-# RVC Training with v2 48k
+# RVC Training with v2 and 48k
 
 (1) Run `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006` in AutoDL
 
@@ -8,7 +8,7 @@
 
 (4) Train the model
 
-## 第二代RVC模型48k采样率 训练指南
+## 第二代RVC模型48k采样率 在线训练指南
 
 (1) 在AutoDL终端界面运行 `echo {} > /root/Retrieval-based-Voice-Conversion-New/i18n/en_US.json && cd /root/Retrieval-based-Voice-Conversion-New && python infer-web.py --port 6006`
 
