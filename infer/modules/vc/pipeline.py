@@ -446,11 +446,12 @@ class Pipeline(object):
             audio_opt = librosa.resample(
                 audio_opt, orig_sr=tgt_sr, target_sr=resample_sr
             )
-        audio_max = np.abs(audio_opt).max() / 0.99
-        max_int16 = 32768
-        if audio_max > 1:
-            max_int16 /= audio_max
-        audio_opt = (audio_opt * max_int16).astype(np.int16)
+        #audio_max = np.abs(audio_opt).max() / 0.99
+        #max_int16 = 32768
+        #if audio_max > 1:
+        #    max_int16 /= audio_max
+        #audio_opt = (audio_opt * max_int16).astype(np.int16)
+        audio_opt = audio_opt.astype(np.float32)
         del pitch, pitchf, sid
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
